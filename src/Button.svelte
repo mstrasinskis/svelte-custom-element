@@ -5,7 +5,7 @@
   export let type = "solid";
 </script>
 
-<button class={type == "solid" ? "btn-solid" : "btn-outline"}>
+<button class={type === "solid" ? "btn-solid" : "btn-outline"}>
   <slot />
 </button>
 
